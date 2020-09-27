@@ -23,10 +23,14 @@ nav a {
 }
 nav ul {
   list-style-type: none;
+  left: 50px;
+  margin-bottom: 20px;
 }
+
 nav li{
   margin: 10px 0;
 }
+
 nav ul > ul {
   margin-left: 10px;
   color: #777;

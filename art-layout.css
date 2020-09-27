@@ -1,0 +1,12 @@
+
+
+h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
+}
+
+p {
+ margin-top: 8px; font-family: 'PT Sans Caption', sans-serif; font-size: 40px; line-height: 20px;font-weight: bold
+
+}
+h1 {font-size: 80px}
+h2 {font-size: 60px}
+h3 {font-size: 60px}

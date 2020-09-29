@@ -54,3 +54,24 @@ h3 + img { margin-top: 81px;
 ul{
   list-style-type: disc;
 }
+
+.menubar{
+  display: flex;
+  justify-content: space-between;
+  align-inems: center;
+  height: 40px;
+  padding: 0 20px;
+  border-bottom: 1px solid #aaa;
+  box-shadow: 0 2px 4px 1px rgba(0,0,0,.3)
+
+}
+.menubar a {
+  height: 20px;
+  color: #aaa;
+  text-decoration: none;
+
+}
+.menubar img {
+  height: 100%;
+  width: auto;
+}

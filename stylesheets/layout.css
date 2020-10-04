@@ -51,8 +51,15 @@ article h2 + img { margin-top: 82px;
 }
 article h3 + img { margin-top: 81px;
 }
-article ul{
+ul{
   list-style-type: disc;
+  font-family: 'PT Sans Caption', sans-serif;
+
+}
+h2 + ul {
+ margin-top: 20px; font-family: 'PT Sans Caption', sans-serif; font-size: 18px; line-height: 32px; color: rgba(0, 0, 0, .8));
+
+
 }
 
 .menubar{

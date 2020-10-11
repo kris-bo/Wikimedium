@@ -14,7 +14,7 @@
       $(this).on('click', function(e) {
         e.preventDefault();
         var scrollTo = $(this).attr('href');
-        var whitespace = scrollTo == '#s1' ? 70 : 30;
+        var whitespace = scrollTo == '#s1' ? 50 : 30;
         $('html,body').animate({
           scrollTop: $(scrollTo).offset().top - whitespace
         }, 1000);
@@ -29,8 +29,9 @@
   </head>
   <body>
     <div class="menubar">
-      <a href="#"> <img src="images/logo.svg"></a>
-      <a href="#">О проекте</a>
+      <a href="index.html"> <img src="images/logo.svg"></a>
+      <a href="about.html">О проекте</a>
+    </div>
 <nav class="sidebar">
   <p><a href="#s1">Дом Наркомфина – жилой дом <br> переходного типа</a></p>
   <ul>
@@ -64,7 +65,7 @@
 <p> Долгое время находился в аварийном состоянии, был трижды включен в список «100 главных зданий мира, которым грозит уничтожение». В 2017 году началась реставрация по проекту мастерской Алексея Гинзбурга, внука <a href="https://ru.wikipedia.org/wiki/Гинзбург,_Моисей_Яковлевич">М.Я. Гинзбурга</a>.
   </p>
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Narkomfin_Building_Moscow_2007_01.jpg/600px-Narkomfin_Building_Moscow_2007_01.jpg"> 
+  <img src="images/narkomfin 1.jpg" alt="">
 
   <h2 id=s2> История создания</h2>
 

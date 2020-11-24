@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>emoji</title>
+    <style media="screen">
+
+  .emoji {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    position: relative;
+    background: url('emoji-120.png');
+  }
+  .emoji-e {
+    width: 160px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('emoji-120.png');
+    background-position: -640px top;
+  }
+  .emoji-m {
+    width: 160px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('emoji-120.png');
+    background-position: -160px top;
+  }
+  .smile {
+    animation: smile 2s steps(1) alternate infinite;
+    animation-play-state: paused;
+  }
+  .blink {
+    animation: blink 2s steps(1) alternate infinite;
+    animation-play-state: paused;
+  }
+  .smile2 {
+    animation: smile 2s steps(1) alternate infinite;
+    animation-play-state: paused;
+  }
+  .blink2 {
+    animation: blink 2s steps(1) alternate infinite;
+    animation-play-state: paused;
+  }
+  .emoji:hover .smile, .emoji:hover .blink {
+    animation-play-state: running;
+  }
+  .emoji2:hover .smile2, .emoji2:hover .blink2 {
+    animation-play-state: running;
+  }
+  .emoji2 {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    position: relative;
+    background: url('emoji-120.png');
+
+  }
+  .emoji2-e {
+    width: 160px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('emoji-160.png');
+    background-position: -640px top;
+  }
+  .emoji2-m {
+    width: 160px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('emoji-160.png');
+    background-position: -160px top;
+  }
+
+  @keyframes smile {
+    0%{background-position: -160px top;}
+    33%{background-position: -320px top;}
+    66%{background-position: -479px top;}
+  }
+  @keyframes blink {
+    0%{background-position: -640px top;}
+    33%{background-position: -800px top;}
+    66%{background-position: -960px top;}
+  }
+  @keyframes smile2 {
+    0%{background-position: -160px top;}
+    33%{background-position: -320px top;}
+    66%{background-position: -479px top;}
+  }
+  @keyframes blink2 {
+    0%{background-position: -640px top;}
+    33%{background-position: -800px top;}
+    66%{background-position: -960px top;}
+
+  }
+</style>
+
+  </head>
+  <body>
+    <div class="emoji">
+      <div class="emoji-e blink"></div>
+      <div class="emoji-m smile"></div>
+
+    </div>
+
+    <div class="emoji2">
+      <div class="emoji2-e blink2"></div>
+      <div class="emoji2-m smile2"></div>
+
+    </div>
+
+  </body>
+</html>
